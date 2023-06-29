@@ -1,46 +1,58 @@
 # e-MAS ( The 24x7 Medical Assistance Software )
 
-## ABOUT:
-The project e-MAS is very useful for the person who is in a medical emergency. It is available 24x7. You
-can use this whenever you want that’s why it is named “The 24x7 Medical Assistance Software”. It mainly
-solves the problem of “What to do in a medical emergency?”. It provides various health-related solutions
-like you can book an ambulance, take appointments from doctors, take medicine suggestions, book lab
-tests, purchase medical equipment or medicines and save all the details of your orders or bookings using
-a print option which saves details in a file on your device. It is very simple and easy to understand. It is
-also easy to use just you have to run the code and enter the details of what it asks. The concept of Java
-language mainly the java swing class is used for its development. It is made on Visual Studio Code IDE. To
-run this code properly on your device you just need to install JDK and VS Code software along with two
-extensions code runner and an extension pack for java. It also has a GUI (Graphical User Interface) which
-makes it more user-friendly. This project is a front-end project.
+e-MAS is a 24x7 Medical Assistance Software designed to help people in medical emergencies. It offers a range of health-related solutions such as ambulance booking, doctor appointments, medicine suggestions, lab test booking, and purchasing medical equipment or medicines. It has a user-friendly interface and is developed using Java language with the Java Swing class, making it easy to understand and use.
 
-## METHODOLOGY:
-I implemented this project with different concepts of Java and OOPS principles such as classes,
-objects, methods, constructors, inheritance, exception handling, file handling, and Java Swing which is
-a GUI-based toolkit for Java.
-There are many types of classes in this project like Ambulance.java, Appointment.java, LabTest.java,
-Decision.java, Medicine_and_equipments.java, and medicine_recommendation.java which are all
-linked with Mainproject.java and there are various methods and constructors in that classes which
-helps in the proper functioning of the project. 
+## Technologies Used
 
-## SOFTWARE & HARDWARE REQUIREMENTS:
-A Computer or a laptop with the following requirements and JDK (Java Development Kit) is also
-installed on the system to make it run properly.
+![JAVA](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
 
-**Software Requirements:**
-IDE: Visual Studio Code or Eclipse
-OS: Windows, Mac, or Linux 
+![Java Swing](https://img.shields.io/badge/Java%20Swing-User%20Interface-orange.svg)
 
-**Hardware Requirements:**
-PROCESSOR: Minimum INTEL i3 / AMD RYZEN 3
-RAM: Minimum 2 gigabytes
-ARCHITECTURE: 32-bit or 62-bit
+[![Object-Oriented Programming](https://img.shields.io/badge/OOPS-Java-blue.svg)](https://en.wikipedia.org/wiki/Object-oriented_programming)
 
-## DEPLOYMENT:
-To deploy this project just open it in any of the IDE as mentioned in the Software requirements and run **mainproject.java** source file.
-To find the saved booking details, you can follow the path **project code/project bookings**
+## Deployment
 
-## AUTHOR:
-https://github.com/manik-18
+To access the e-MAS project, simply download it and locate the MainProject.java file. You can find this file by navigating through the following folders:
 
-## CONTACT:
-If any issue is there or you want to give any type of feedback then mail me @guptamanik1810@gmail.com
+``` src
+    ├── project audio                     # Contains audio files
+    ├── project bookings                  # Contains data of all the bookings made
+    ├── project images                    # Contains images
+    ├── ...                               # Other files
+    ├── Mainproject.java                  # File to run
+    └── ...                               # Other files
+```
+
+## Result
+
+- HOMESCREEN
+
+![Screenshot 2023-06-29 154508](https://github.com/manik-18/Medical-Assistance-Software/assets/102967918/daeb02cb-f99c-473e-ac06-4db683d6951c)
+
+- MENU
+
+![Screenshot 2023-06-29 154524](https://github.com/manik-18/Medical-Assistance-Software/assets/102967918/796890cf-0e88-457a-8ee5-3a6b7403aea0)
+
+- USER DETAILS
+
+![Screenshot 2023-06-29 154733](https://github.com/manik-18/Medical-Assistance-Software/assets/102967918/11736b05-843f-44f2-b3fa-76ff9a78aac6)
+
+- OPTIONS
+
+![Screenshot 2023-06-29 154918](https://github.com/manik-18/Medical-Assistance-Software/assets/102967918/fe35f033-8e4d-48e0-883b-765bcaf6231c)
+
+- OUTPUT
+
+![Screenshot 2023-06-29 155019](https://github.com/manik-18/Medical-Assistance-Software/assets/102967918/850451e7-b31a-45e6-8063-3f880ba9adcd)
+
+- SAVED DATA
+
+![Screenshot 2023-06-29 155045](https://github.com/manik-18/Medical-Assistance-Software/assets/102967918/068a58ac-f432-4dda-8ff8-ef52347bb13c)
+
+## Author
+
+- [@manik-18](https://github.com/manik-18)
+
+## Feedback
+
+If you have any feedback, please reach out to us at @guptamanik1810@gmail.com
